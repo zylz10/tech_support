@@ -24,18 +24,6 @@ padding:20px;margin-top:18px
 }
 a{color:#2563eb;text-decoration:none}
 </style>
-<script>
-const params = new URLSearchParams(window.location.search);
-const id = params.get('id');
-const routeMap = {
-'1': 'model1.html',
-'2': 'model2.html'
-};
-const target = routeMap[id];
-if (target) {
-window.location.replace(target);
-}
-</script>
 </head>
 <body>
 <div class="container">
